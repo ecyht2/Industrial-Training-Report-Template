@@ -5,6 +5,9 @@
 \RequirePackage{setspace}
 
 % Metadata commands
+\newcommand{\faculty}[1]{\renewcommand{\faculty}{#1}}
+\newcommand{\module}[1]{\renewcommand{\module}{#1}}
+\newcommand{\academicyear}[1]{\renewcommand{\academicyear}{#1}}
 \newcommand{\studentid}[1]{\renewcommand{\studentid}{#1}}
 \newcommand{\degree}[1]{\renewcommand{\degree}{#1}}
 \newcommand{\department}[1]{\renewcommand{\department}{#1}}
@@ -18,20 +21,20 @@
         \includegraphics[]{images/nottingham-logo.png}
         
         \vspace{0.5cm}
-        \Huge\textbf{Faculty of Engineering}
+        \huge\textbf{\faculty}
 
         \vspace{1cm}
-        \huge\textbf{ENGR3001 Industrial Training}
+        \Large\textbf{\module}
 
         \vspace{0.5cm}
         \textbf{\@title}
 
         \vspace{1cm}
-        \textbf{Academic Year 2022 / 2023}
+        \textbf{Academic Year \academicyear}
     \end{center}
     
     \vspace{1cm}
-    \Large{Student Name: \@author}
+    \large{Student Name: \@author}
 
     \vspace{0.1cm}
     Student ID: \studentid
@@ -43,14 +46,14 @@
     Department: \department
     
     \vspace{0.1cm}
-    Organization's Name: \orgname
+    Organisation's Name: \orgname
     
     \vspace{0.1cm}
-    Organization's Address:\\
+    Organisation's Address:\\
     \orgaddr
 
     \vspace{0.1cm}
-    Organization's Stamp:
+    Organisation's Stamp:
     \clearpage
 \end{titlepage}
 }

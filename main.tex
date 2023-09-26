@@ -1,57 +1,74 @@
-\documentclass{article}[12pt]
-\usepackage{graphicx} % Required for inserting images
+\documentclass[12pt]{article}
 \usepackage{indus-report}
 
+% Required for inserting images
+\usepackage{graphicx}
+
+% Required for citation
+\usepackage{biblatex}
+
+\addbibresource{citation.bib}
+
 % Setting Document Metadata
+\faculty{Faculty of Engineering}
+\module{ENGR3001 Industrial Training}
 \title{Industrial Training Report}
+\academicyear{2022 / 2023}
 \author{Someone}
-\studentid{69696969}
+\studentid{12345678}
 \degree{BEng/MEng}
 \department{Some Department}
 \orgname{Some Company}
 \orgaddr{Some Address}
 
-
 \begin{document}
 \maketitle
 
-\addcontentsline{toc}{section}{Acknowlegement}
-\section*{Acknowlegement}
+\section*{Acknowledgement}
+\addcontentsline{toc}{section}{Acknowledgement}
 
 \clearpage
+
 \tableofcontents
 
 \clearpage
+
 \section{Organization, Team \& Individual}
-\subsection{Company Background}
-\subsection{Organization Chart \& Team Structure}
+\subsection{Company Background}    
 \subsection{Individual Responsibilities: Summary of Duties}
+\subsection{Application of Engineering Knowledge}
 
 \clearpage
+
 \section{Internship Work Experience}
 \subsection{Details of Work Experience}
 \subsection{Application of Engineering Knowledge}
 \subsection{Achievements and Results}
 
 \clearpage
+
 \section{Exposure Gained}
 \subsection{Exposure to Engineering, Software and/or IT Tools}
 \subsection{Exposure to Environmental and Sustainability Considerations}
-\subsection{Exposure to Project Management, Business and Finance}
+\subsection{Exposure to Project Management, Business, and Finance}
 
 \clearpage
+
 \section{Working Environment}
 \subsection{Health \& Safety, Corporate Social Responsibility}
 \subsection{Professional Ethics and Company Code of Conduct}
 
 \clearpage
+
 \section{Conclusions}
 
 \clearpage
+
+\printbibliography
 \addcontentsline{toc}{section}{References}
-\section*{References}
 
 \clearpage
+
 \addcontentsline{toc}{section}{Appendix}
 \section*{Appendix}
 
