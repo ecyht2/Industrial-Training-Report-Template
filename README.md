@@ -35,7 +35,7 @@ git clone https://github.com/ecyht2/Industrial-Training-Report-Template.git dire
 ![Image of ZIP file download](readme_img/download-zip.png) 
 2. Extract files to working directory.
 
-### Using GitHub
+#### Using GitHub
 
 1. Sign in to GitHub
 2. Click on the `Use this template` button.
