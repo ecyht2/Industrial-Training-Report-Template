@@ -62,3 +62,7 @@ This template provides commands to change the information the title page. All th
 |`\department{department}`|Sets the department worked in the industrial training|
 |`\orgname{company}`|Sets the company of the industrial training|
 |`\orgaddr{address}`|Sets the address of the company|
+
+## License
+
+This repository including images except for Nottingham logo is license under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
