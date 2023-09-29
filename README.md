@@ -32,8 +32,9 @@ git clone https://github.com/ecyht2/Industrial-Training-Report-Template.git dire
 #### Using Zip
 
 1. Download the ZIP file in the code dropdown.
+
 ![Image of ZIP file download](readme_img/download-zip.png) 
-2. Extract files to working directory.
+3. Extract files to working directory.
 
 #### Using GitHub
 
